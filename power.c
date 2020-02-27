@@ -14,7 +14,7 @@ declared before it is used. There can be only one function of any given name.
 GPP: camelCase naming style is used in whole code. You should always stich to 
 one formatting style in one file.
 This function:
-returns int type	takes int int argumetns*/
+returns int type	takes (int, int) argumetns*/
 int powerOfBase(int base, int pow);
 
 /* main function definition. As the name suggest this is the 'entry point' 

@@ -3,7 +3,7 @@ for educational purpose only - obviously C language has built-in power
 function in math.h library.
 
 Program includes a lot of comments. WHenever 'GPP' is written it means 
-a comment refers to Goof Programming Practice */
+a comment refers to Good Programming Practice */
 
 //Header containing included libraries. In this case stdio.h includes 
 //standard input output.

@@ -25,14 +25,14 @@ void main()
 	//GPP: use indentation whenever you start a new function, loop, etc.
 	//GPP: name the variables so you know what they represent
 	// = means definition, == is comparison
-	int base = 0, pow = 0;						//variables definition
-	int out;							//variable declaration
-	printf("podaj liczbe calkowita: ");				//print on screen
-	scanf("%d", &base);						//ask for an int - %d format
+	int base = 0, pow = 0;				//variables definition
+	int out;					//variable declaration
+	printf("podaj liczbe calkowita: ");		//print on screen
+	scanf("%d", &base);				//ask for an int %d format
 	//there is no point of power if base == 0
 	if (base == 0)								
 	{
-		printf("kazda potega liczby 0 wynosi 0!\n");		//\n means newline
+		printf("kazda potega liczby 0 wynosi 0!\n"); //\n means newline
 	}
 	else
 	{//GPP: this part should be in separate function.
@@ -53,11 +53,11 @@ void main()
 }
 
 //function definition
-int powerOfBase(int base, int pow)				//function takes two int arguments
+int powerOfBase(int base, int pow)			//function takes 2 int arguments
 /* this function returns a power of the given base number */
 {
-	int temp = base;						//temporary variable storing 
-									//multiplication result
+	int temp = base;				//temporary variable storing 
+							//multiplication result
 	if (pow > 0)
 	{
 		for (int i = 1; i < pow; i++)

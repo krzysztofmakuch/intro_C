@@ -5,8 +5,8 @@ function in math.h library.
 Program includes a lot of comments. WHenever 'GPP' is written it means 
 a comment refers to Goof Programming Practice */
 
-//Header containing included libraries. In this case stdio.h
-//includes standard input output.
+//Header containing included libraries. In this case stdio.h includes 
+//standard input output.
 #include <stdio.h>
 
 /* declaration of the function defined later. In C function has to be
@@ -38,7 +38,7 @@ void main()
 	{//GPP: this part should be in separate function.
 		printf("podaj nieujemny wykladnik calkowity: ");
 		scanf("%d", &pow);
-		//powerOfBase is called and the returned value is stored in out variable
+		//powerOfBase is called, returned value is stored in out variable
 		out = powerOfBase(base, pow);
 		if (out != 0)
 		{

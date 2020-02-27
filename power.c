@@ -11,7 +11,7 @@ a comment refers to Good Programming Practice */
 
 /* declaration of the function defined later. In C function has to be
 declared before it is used. There can be only one function of any given name.
-GPP: camelCase naming style is used in whole code. You should always stich to 
+GPP: camelCase naming style is used in whole code. You should always stick to 
 one formatting style in one file.
 This function:
 returns int type	takes (int, int) argumetns*/

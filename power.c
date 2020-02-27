@@ -24,7 +24,7 @@ void main()
 {//body of every function is contained within curly brackets {}
 	//GPP: use indentation whenever you start a new function, loop, etc.
 	//GPP: name the variables so you know what they represent
-	// = means definition, == is comparison
+	// = means definition, == is comparison operator
 	int base = 0, pow = 0;				//variables definition
 	int out;					//variable declaration
 	printf("podaj liczbe calkowita: ");		//print on screen

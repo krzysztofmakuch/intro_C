@@ -20,7 +20,7 @@ int powerOfBase(int base, int pow);
 /* main function definition. As the name suggest this is the 'entry point' 
 for compiler. This particular function has void type, which means it doesn't 
 return anything. It also doesn't take any arguments*/
-void main()
+int main()
 {//body of every function is contained within curly brackets {}
 	//GPP: use indentation whenever you start a new function, loop, etc.
 	//GPP: name the variables so you know what they represent
@@ -49,7 +49,7 @@ void main()
 			printf("wykladnik musi byc nieujemny!\n");
 		}
 	}
-	
+	return 0;
 }
 
 //function definition

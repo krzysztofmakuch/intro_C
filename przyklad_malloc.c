@@ -28,7 +28,7 @@ int main(void)
 	ktorych rozmiar podaje sie w trakcie wywolywania funkcji */
 	int *arr;
 	int d = 5;
-	//malloc zwraca wskaznik typu coid, rzutowanie typu!
+	//malloc zwraca wskaznik typu void, rzutowanie typu!
 	arr = (int *)malloc(d*sizeof(int));
 	//powyzszy psosob jest 2-etapowy. W jednym etapie to samo:
 	// int *arr = malloc(d*sizeof(int));
